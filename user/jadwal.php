@@ -38,7 +38,7 @@ $profil = query("SELECT * FROM user_212279 WHERE 212279_id_user = '$id_user'")[0
     <nav class="navbar fixed-top bg-body-secondary navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="../kon1.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+          <img src="../myfutsal.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -342,7 +342,7 @@ $profil = query("SELECT * FROM user_212279 WHERE 212279_id_user = '$id_user'")[0
     </div>
 
     <div class="credit">
-      <p>Created by <a href="#">MuhammadSurya & NurHalizah</a> &copy; 2023</p>
+      <p>Created by <a href="#">Kelompok 7</a> &copy; 2024</p>
     </div>
   </footer>
   <!-- End Footer -->

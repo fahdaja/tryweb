@@ -47,7 +47,7 @@ if (isset($_POST["pesan"])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daftar Lapangan</title>
+  <title>Daftar Lapangan Futsal</title>
   <link rel="stylesheet" href="../style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://unpkg.com/feather-icons"></script>
@@ -59,7 +59,7 @@ if (isset($_POST["pesan"])) {
     <nav class="navbar fixed-top bg-body-secondary navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="../kon1.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+          <img src="../myfutsal.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -183,7 +183,7 @@ if (isset($_POST["pesan"])) {
   <section class="lapangan" id="lapangan">
     <div class="container">
       <main class="contain" data-aos="fade-right" data-aos-duration="1000">
-        <h2 class="text-head">Lapangan di <span>Sport</span> Center </h2>
+        <h2 class="text-head">Lapangan di <span>My Futsal</span> Center </h2>
         <div class="row row-cols-1 row-cols-md-4">
           <?php foreach ($lapangan as $row) : ?>
             <div class="col">
@@ -198,6 +198,7 @@ if (isset($_POST["pesan"])) {
                 </div>
               </div>
             </div>
+            
 
             <!-- Modal Pesan -->
             <div class="modal fade" id="pesanModal<?= $row["212279_id_lapangan"]; ?>" tabindex="-1" aria-labelledby="pesanModalLabel<?= $row["212279_id_lapangan"]; ?>" aria-hidden="true">
@@ -264,7 +265,7 @@ if (isset($_POST["pesan"])) {
     </div>
 
     <div class="credit">
-      <p>Created by <a href="#">MuhammadSurya & NurHalizah</a> &copy; 2023</p>
+      <p>Created by <a href="#">Kelompok 7</a> &copy; 2023</p>
     </div>
   </footer>
   <!-- End Footer -->

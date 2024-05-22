@@ -85,12 +85,12 @@ CREATE TABLE `lapangan_212279` (
 --
 
 INSERT INTO `lapangan_212279` (`212279_id_lapangan`, `212279_nama`, `212279_keterangan`, `212279_harga`, `212279_foto`) VALUES
-(23, 'Bronze2', 'ini lapangan Dewa', 10000, 'footbal.jpg'),
-(24, 'Silver', 'Ini Lapangan Emas', 20000, 'badmintoon.jpg'),
-(25, 'Gold', 'Ini Lapangan Silver', 30000, 'basket.jpg'),
-(26, 'Diamond', 'Ini Lapangan Golf4', 40000, 'futsal.jpg'),
-(27, '', '', 0, '652df02080f44.png'),
-(29, 'test', '', 123, '652df064de52f.png');
+(23, 'Bronze2', 'ini lapangan Dewa', 10000, 'stadion.jpg'),
+(24, 'Silver', 'Ini Lapangan Emas', 20000, 'stadion.jpg'),
+(25, 'Gold', 'Ini Lapangan Silver', 30000, 'stadion.jpg'),
+(26, 'Diamond', 'Ini Lapangan Golf4', 40000, 'stadion.jpg'),
+(27, '', '', 0, 'logo myfutsal.png'),
+(29, 'test', '', 123, 'logo myfutsal.png');
 
 -- --------------------------------------------------------
 

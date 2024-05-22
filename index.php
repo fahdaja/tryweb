@@ -27,7 +27,7 @@ if (isset($_POST["simpan"])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sport Center</title>
+  <title>My Futsal Center</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
@@ -40,7 +40,7 @@ if (isset($_POST["simpan"])) {
     <nav class="navbar fixed-top bg-body-secondary navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="kon1.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+          <img src="2-removebg-preview.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -179,9 +179,10 @@ if (isset($_POST["simpan"])) {
   <!-- Jumbotron -->
   <section class="jumbotron" id="home">
     <main class="contain" data-aos="fade-right" data-aos-duration="1000">
-      <h1 class="text-light">Sehatkan Dirimu Dengan Berolahraga di <span>Sport</span> Center </h1>
+      <h1 class="text-light">Sehatkan Dirimu Dengan Berolahraga di <span>My Futsal</span> Center </h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, numquam!
+        Ayo Segera Booking lapang anda sekarang!
+
       </p>
       <a href="user/lapangan.php" class="btn btn-inti">Booking Sekarang</a>
     </main>
@@ -191,15 +192,15 @@ if (isset($_POST["simpan"])) {
   <!-- About -->
   <section class="about" id="about">
     <h2 data-aos="fade-down" data-aos-duration="1000">
-      <span>Tentang</span> Kami
+      <span>About</span> 
     </h2>
     <div class="row">
       <div class="about-img" data-aos="fade-right" data-aos-duration="1000">
-        <img src="img/futsal.jpg" alt="" />
+        <img src="2-removebg-preview.png" alt="" />
       </div>
       <div class="contain" data-aos="fade-left" data-aos-duration="1000">
-        <h4 class="text-center mb-3">Kenapa Memilih kami?</h4>
-        <p>Sport Center adalah pusat olahraga yang menyediakan berbagai fasilitas dan layanan penyewaan lapangan untuk berbagai jenis olahraga. Tempat ini dirancang untuk memfasilitasi kegiatan olahraga dan rekreasi bagi individu, kelompok, dan komunitas yang memiliki minat dalam berpartisipasi dalam aktivitas fisik. Sport Center menawarkan beragam jenis lapangan yang dapat disewa untuk berbagai jenis olahraga, seperti sepak bola, futsal, tenis, basket, voli, dan masih banyak lagi. Setiap lapangan dilengkapi dengan fasilitas yang sesuai, termasuk garis-garis permainan, jaring, dan peralatan yang dibutuhkan untuk menjalankan aktivitas olahraga dengan lancar.</p>
+        <h4 class="text-center mb-3">Tentang kami?</h4>
+        <p>Selamat datang di My Futsal Center, platform penyewaan lapangan futsal terkemuka Dikota Bandung, yang dirancang untuk memudahkan Anda dalam menemukan dan memesan lapangan futsal terbaik di sekitar Anda. Kami hadir dengan komitmen untuk menyediakan pengalaman penyewaan yang cepat, mudah, dan terpercaya, sehingga Anda dapat fokus pada permainan tanpa harus khawatir tentang proses penyewaan.</p>
       </div>
     </div>
   </section>
@@ -212,14 +213,14 @@ if (isset($_POST["simpan"])) {
     </h2>
     <p class="text-center">Berikut adalah tata cara pembayaran lapangan pada website Sport Center:</p>
     <ul class="border list-group list-group-flush mt-5">
-      <li class="list-group-item">1. Pengguna harus membuat akun atau mendaftar sebagai anggota pada website Sport Center.</li>
+      <li class="list-group-item">1. Pengguna harus membuat akun atau mendaftar sebagai anggota pada website MyFutsal Center.</li>
       <li class="list-group-item">2. Pengguna dapat memilih jenis lapangan yang ingin dipesan, memilih tanggal dan waktu tertentu.</li>
       <li class="list-group-item">3. Pengguna harus memilih tanggal dan waktu, melihat harga sewa lapangan, mengisi jumlah jam atau durasi, melengkapi formulir pemesanan.</li>
       <li class="list-group-item">4. Bila Dirasa sudah sesuai, pengguna dapat meng klik tombol pesan.</li>
       <li class="list-group-item">5. Lalu pengguna akan diarahkan ke menu pembayaran</li>
       <li class="list-group-item">5. Lakukan pembayaran ke rekening yang sudah tertera dan upload bukti pembayaran</li>
       <li class="list-group-item">5. Setelah upload, tunggu admin menyetujui pembayaran anda</li>
-      <li class="list-group-item">5. Setelah status sudah di setujui, silahkan datang ke Sport Center sesuai jadwal yang di pesan</li>
+      <li class="list-group-item">5. Setelah status sudah di setujui, silahkan datang ke MyFutsal Center sesuai jadwal yang di pesan</li>
     </ul>
   </section>
   <!-- End Pembayaran -->
@@ -228,17 +229,17 @@ if (isset($_POST["simpan"])) {
   <section id="contact" class="contact" data-aos="fade-down" data-aos-duration="1000">
     <h2><span>Kontak</span> Kami</h2>
     <p class="text-center m-5">
-      Hubungi kami jika ada saran yang ingin di sampaikan
+    Jika Anda memiliki pertanyaan, masukan, atau butuh bantuan, jangan ragu untuk menghubungi kami melalui:
     </p>
     <div class="row">
-      <div class="col">
+     <!-- <div class="col">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507647.0238694795!2d107.08353226546932!3d-6.264732182087622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69775e79e70e01%3A0x301576d14feb9e0!2sKarawang%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1674768522563!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-      </div>
+      </div> -->
       <div class="col">
         <form action="">
           <div class="input-group">
             <div class="input-group-prepend">
-              <span class="input-group-text"><i data-feather="user"></i></span>
+              <span class="input-group-text"><i data-feather="mail"></i></span>
             </div>
             <input type="text" name="" id="" placeholder="nama" class="form-control" />
           </div>
@@ -254,7 +255,7 @@ if (isset($_POST["simpan"])) {
             </div>
             <input type="text" name="" id="" placeholder="no telp" class="form-control" />
           </div>
-          <button type="submit" class="btn btn-inti mt-3">Kirim Pesan</button>
+         
         </form>
       </div>
     </div>
@@ -277,7 +278,7 @@ if (isset($_POST["simpan"])) {
     </div>
 
     <div class="credit">
-      <p>Created by <a href="#">MuhammadSurya & NurHalizah</a> &copy; 2023</p>
+      <p>Made with  <a href="#">Kelompok 7</a> &copy; 2024</p>
     </div>
   </footer>
   <!-- End Footer -->
