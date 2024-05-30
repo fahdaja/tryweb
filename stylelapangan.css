@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background: #cdcbcb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  
+  .header ul, .header li{
+    margin: 12px;
+    padding: 0;
+    position: relative;
+    right: 6%;
+  }
+  
+  .header ul {
+    list-style: none;
+    width: 100%;
+  }
+  header img{
+    float:left ;
+     position: relative;
+     right: 300px;
+  }
+  
+  .header li{
+    float: left;
+    text-align: center;
+    display: inline;
+    
+  }
+  
+  .header a {
+    color: rgb(32, 31, 31);
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration:none;
+    transition: all 0.25s ease;
+  }
+  
+  .header li:hover a{
+    background: #e41f1f;
+    border-radius: 9px;
+  }
+  
+  main {
+    margin: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+  }
+  
+  .isi-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .isi-lapangan {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 190px;
+    overflow-x: auto;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .desc {
+    text-align: center;
+  }
+  
+  .desc .jadwal a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .desc .pesan a{
+    color: white;
+    text-decoration: none;
+  }
+  .foto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .tombol .jadwal {
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .jadwal h4{
+    margin: 0;
+  }
+   .pesan {
+    background: #ff2f2f;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .pesan h4{
+    margin: 0;
+  }
+  
+  .foto img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  footer {
+  margin: 0;
+  padding: 20px;
+  background-color: #e41f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  }
+  
+  .social a, .links a, .author a {
+    text-decoration: none;
+  }
+  
+  .social a img {
+    width: 23px;
+    height: 25px;
+  }
+  
+  .links, .social{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 10px;
+  }
+  
+  .links a:hover{
+    color: white;
+  }
+  
+  .author p a {
+    color: white;
+  }
+  
+  
