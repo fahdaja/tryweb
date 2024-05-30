@@ -45,7 +45,7 @@ if (isset($_POST["login"])) {
 
 <head>
   <meta charset="utf-8">
-  <title>Login My futsal Center</title>
+  <title>Login My futsal Sport Center</title>
   
   <link rel="stylesheet" href="style.css">
 </head>
@@ -53,6 +53,8 @@ if (isset($_POST["login"])) {
 <body class="login">
   <div class="center">
     <h1>Login</h1>
+    <hr>
+    <center><p>Selamat datang di My Futsal Center</p></center>
     <form method="POST">
       <div class="txt_field">
         <input type="email" name="username" required>

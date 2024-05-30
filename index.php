@@ -229,37 +229,37 @@ if (isset($_POST["simpan"])) {
   <section id="contact" class="contact" data-aos="fade-down" data-aos-duration="1000">
     <h2><span>Kontak</span> Kami</h2>
     <p class="text-center m-5">
-    Jika Anda memiliki pertanyaan, masukan, atau butuh bantuan, jangan ragu untuk menghubungi kami melalui:
+        Jika Anda memiliki pertanyaan, masukan, atau butuh bantuan, jangan ragu untuk menghubungi kami melalui:
     </p>
     <div class="row">
-     <!-- <div class="col">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507647.0238694795!2d107.08353226546932!3d-6.264732182087622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69775e79e70e01%3A0x301576d14feb9e0!2sKarawang%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1674768522563!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-      </div> -->
-      <div class="col">
-        <form action="">
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text"><i data-feather="mail"></i></span>
-            </div>
-            <input type="text" name="" id="" placeholder="nama" class="form-control" />
-          </div>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text"><i data-feather="mail"></i></span>
-            </div>
-            <input type="text" name="" id="" placeholder="email" class="form-control" />
-          </div>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text"><i data-feather="phone"></i></span>
-            </div>
-            <input type="text" name="" id="" placeholder="no telp" class="form-control" />
-          </div>
-         
-        </form>
-      </div>
+        <!-- <div class="col">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507647.0238694795!2d107.08353226546932!3d-6.264732182087622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69775e79e70e01%3A0x301576d14feb9e0!2sKarawang%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1674768522563!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div> -->
+        <div class="col">
+            <form action="">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i data-feather="user"></i></span>
+                    </div>
+                    <input type="text" name="name" id="name" value="My Futsal Center" class="form-control" readonly />
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i data-feather="mail"></i></span>
+                    </div>
+                    <input type="email" name="email" id="email" value="myfutsalcenter@yopmail.com" class="form-control" readonly />
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i data-feather="phone"></i></span>
+                    </div>
+                    <input type="text" name="phone" id="phone" value="08977529078" class="form-control" readonly />
+                </div>
+            </form>
+        </div>
     </div>
-  </section>
+</section>
+
   <!-- End Contact -->
 
   <!-- footer -->

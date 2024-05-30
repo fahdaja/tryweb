@@ -9,6 +9,15 @@
   background-image: url("img/arena.jpg");
   background-size: cover;
 }
+hr {
+  border-top: 5px solid red;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}
+
 
 /* Center daftar */
 
